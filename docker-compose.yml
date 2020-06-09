@@ -21,7 +21,7 @@ services:
     environment:
       - "http_proxy=http://proxy:3128"
       - "https_proxy=http://proxy:3128"
-      - "RH_YEAR=2018"
-      - "NVD_YEAR=2018"
-      - "SLEEP_TIME=30"
+      - "RH_YEAR=1998"
+      - "NVD_YEAR=2002"
+      - "SLEEP_TIME=86400" # how often to re-download feeds
 
