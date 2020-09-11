@@ -1,5 +1,7 @@
 version: '3.7'
 
+volumes:
+  - vuln-feeds
 
 services:
   proxy:
@@ -15,7 +17,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./feeds:/usr/share/nginx/html
+      - vuln-feeds:/usr/share/nginx/html
     links:
       - proxy:proxy
     environment:
