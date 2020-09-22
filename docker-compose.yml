@@ -1,7 +1,7 @@
 version: '3.7'
 
 volumes:
-  - vuln-feeds
+  vuln-feeds:
 
 services:
   proxy:
