@@ -24,5 +24,4 @@ services:
       - "https_proxy=http://proxy:3128"
       - "RH_YEAR=1998"
       - "NVD_YEAR=2002"
-      - "SLEEP_TIME=86400" # how often to re-download feeds
-
+      - "SLEEP_TIME=86400" # how often to re-download feeds (24 hours by default)
