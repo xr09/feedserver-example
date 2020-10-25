@@ -12,8 +12,7 @@ services:
       - ./squid/squid.conf:/etc/squid/squid.conf
 
   feedserver:
-    build: feedserver/
-    image: xr09/feedserver:0.1
+    image: xr09/feedserver:latest
     ports:
       - 80:80
     volumes:
